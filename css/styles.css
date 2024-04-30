@@ -850,8 +850,9 @@ input {
 iframe {
     position: absolute;
     height: 100%;
-    top: -63px;
+    top: -70px;
     width: 100%;
+    left: -3px;
 }
 
 
@@ -911,13 +912,16 @@ textarea {
     position: absolute;
     width: 8px;
     height: 5px;
-    border-bottom: 1px solid #1f1f56;
+    border-bottom: 2px solid #1f1f56;
     transform: rotate(-45deg);
-    border-left: 1px solid #1f1f56;
-    top: 4px;
+    border-left: 2px solid #1f1f56;
+    top: 3px;
     left: 9px;
 }
 
+h4 {
+    font-family: "Roboto Slab";
+}
 
 .checkbox:checked + label:after {
     display: block;
@@ -976,6 +980,14 @@ button {
     color: #666666;
 }
 
+.consultation p, .office p, .recvisit p {
+    margin-bottom: 8px;
+}
+
+.consultation a, .office a, .recvisit a {
+    margin-bottom: 8px;
+}
+
 .consultation a, .office a {
     text-decoration: none;
     font-size: 18px;
@@ -984,13 +996,33 @@ button {
     font-weight: bold;
 }
 
+.recvisit {
+    max-width: 260px;
+}
 
 .office a:last-child {
     font-size: 16px;
     line-height: 24px;
     text-decoration: underline;
     color: #25252c;
+    font-weight: normal;
 }
+
+
+button {
+   cursor: pointer; 
+   border: 1px solid #fd8300;
+}
+
+
+button:hover {
+    background-color: #fff;
+    color: #fd8300;
+    border: 1px solid #fd8300;
+    transition: 0.5s;
+}
+
+
 
 .office p, .consultatoin p, .recvisit p {
     font-size: 14px;
@@ -1023,3 +1055,15 @@ form h4 {
     font-weight: 700;
     margin-bottom: 10px;
 }
+
+
+header {
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.main_index2 {
+    padding-top: 40px;
+}
+
+
