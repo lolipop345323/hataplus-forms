@@ -22,8 +22,52 @@
     font-display: swap;
 }
 
+.table {
+    margin-bottom: 35px !important;
+}
 
+.table:hover {
+    background-color: #fd8300;
+    color: white;
+}
 
+.sign h2 {
+    margin-bottom: 30px;
+    font-family: "Roboto Slab";
+}
+
+.sign .pi {
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.wrapperH2{
+    font-family: "Roboto Slab" !important;
+    margin-bottom: 25px !important;
+}
+
+.sign a {
+    margin-bottom: 25px;
+    color: #fd8300;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.project-cards strong {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sign a:hover {
+    text-decoration: underline;
+}
 
 
 body {
