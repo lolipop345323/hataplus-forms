@@ -939,6 +939,11 @@ iframe {
     left: -3rem;
 }
 
+@media (max-width: 650px){
+    iframe {
+        top: -90rem;
+    }
+}
 
 input,
 textarea {
@@ -1221,6 +1226,7 @@ header {
 
     .project-category  {
         width: 100%;
+        margin-bottom: 30rem;
     }
 }
 
@@ -1262,10 +1268,6 @@ header {
     .navigation a {
         padding: 5rem;
         display: block;
-    }
-
-    .project-category {
-        margin-bottom: 15rem;
     }
 
     .month-proposition {
